@@ -1,0 +1,49 @@
+
+/* Class tags from navigation bar and main text*/
+.header_container {
+    padding: 30px 40px 20px 10px
+  }
+
+/* Expanding Bootstrap behavior */
+.nav-item {
+    margin-left: 30px;
+    list-style: none;
+  }
+
+  .navbar-text {
+    white-space: nowrap;
+    font-size: calc(0.8vw + 0.8rem);
+    line-height: .975;
+    color: var(--textColor);
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .dropdown {
+    margin-left: 40px;
+  }
+  
+  .dropdown-menu {
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar.navbar-expand-lg.navbar-dark a {
+    color: white;
+  }
+  
+  .dropdown-menu>li>a:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .nav .navbar-nav .navbar-right .navbar-inverse:hover {
+    background-color: black;
+    color: #CCCCCC;
+    text-decoration: underline;
+  }
+  
+  .moreSpacing {
+    margin-right: 40px;
+  }
