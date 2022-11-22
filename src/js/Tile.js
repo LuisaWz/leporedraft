@@ -39,7 +39,7 @@ export default class Tile {
         this.isZoomed = false
 
         this.loader = new THREE.TextureLoader()
-        this.preload([this.mainImage.src, this.mainImage.dataset.hover, '/dist/img/shape.jpg'], () => { this.initTile() })
+        this.preload([this.mainImage.src, this.mainImage.dataset.hover, './dist/img/shape.jpg'], () => { this.initTile() })
 
         this.Scroll = Scrollbar.get(document.querySelector('.scrollarea'))
 
